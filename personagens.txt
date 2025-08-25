@@ -1,0 +1,2 @@
+Cassio,ELFO,MAGO,5,10,Neutro,10,8,15
+Cassio,ELFO,MAGO,5,10,Neutro,9,9,17
