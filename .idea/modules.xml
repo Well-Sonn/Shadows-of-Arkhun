@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/Aula-13-08.iml" filepath="$PROJECT_DIR$/.idea/Aula-13-08.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/Game RPG.iml" filepath="$PROJECT_DIR$/.idea/Game RPG.iml" />
->>>>>>> ca61519 (mensagem explicando a mudança)
     </modules>
   </component>
 </project>

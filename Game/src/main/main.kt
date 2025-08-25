@@ -10,22 +10,14 @@ fun main() {
     val classeInput = readLine()!!
     val classe = Classe.valueOf(classeInput.uppercase())
 
-    val forcaRange = Atributos.limitesForca(raca)
-    val destrezaRange = Atributos.limitesDestreza(raca)
-    val inteligenciaRange = Atributos.limitesInteligencia(raca)
-
-    println("Escolha Força (${forcaRange.first}-${forcaRange.last}):")
-    val forca = readLine()?.toIntOrNull()?.coerceIn(forcaRange) ?: forcaRange.first
-
-    println("Escolha Destreza (${destrezaRange.first}-${destrezaRange.last}):")
-    val destreza = readLine()?.toIntOrNull()?.coerceIn(destrezaRange) ?: destrezaRange.first
-
-    println("Escolha Inteligência (${inteligenciaRange.first}-${inteligenciaRange.last}):")
-    val inteligencia = readLine()?.toIntOrNull()?.coerceIn(inteligenciaRange) ?: inteligenciaRange.first
+    // Agora os atributos são gerados via dado
+    val forca = Atributos.gerarForca(raca)
+    val destreza = Atributos.gerarDestreza(raca)
+    val inteligencia = Atributos.gerarInteligencia(raca)
 
     val personagem = PersonagemService.criarPersonagem(nome, raca, classe, forca, destreza, inteligencia)
     PersonagemService.salvarPersonagem(personagem)
 
-    println("Personagem criado com sucesso!")
+    println("\n Personagem criado com sucesso!!\n")
     println(personagem)
 }
