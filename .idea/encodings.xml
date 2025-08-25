@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/Game/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Game/src/main/resources" charset="UTF-8" />
-=======
     <file url="file://$PROJECT_DIR$/Shadows-of-Arkhun/Game/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shadows-of-Arkhun/Game/src/main/resources" charset="UTF-8" />
->>>>>>> ca61519 (mensagem explicando a mudança)
   </component>
 </project>

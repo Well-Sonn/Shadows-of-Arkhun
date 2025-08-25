@@ -1,4 +1,4 @@
-public enum classe {
+enum class Classe {
     MAGO,
     NECROMANTE,
     GUERREIRO
