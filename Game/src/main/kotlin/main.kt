@@ -10,7 +10,6 @@ fun main() {
     val classeInput = readLine()!!
     val classe = Classe.valueOf(classeInput.uppercase())
 
-    // Agora os atributos são gerados via dado
     val forca = Atributos.gerarForca(raca)
     val destreza = Atributos.gerarDestreza(raca)
     val inteligencia = Atributos.gerarInteligencia(raca)
